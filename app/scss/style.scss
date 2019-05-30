@@ -82,3 +82,128 @@ body{
     text-decoration: underline;
     text-transform: lowercase;
 }
+.top__image{
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+.top__inner{
+    position: absolute;
+    top: 265px;
+}
+.top__title{
+    font-size: 90px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.top__text{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.top__btn-left,
+.top__btn-right{
+    display: inline-block;
+}
+.top__btn-left{
+    margin-right: 20px;
+}
+.top__btn-left :hover,
+.top__btn-right :hover{
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+}
+.top__btn-left a,
+.top__btn-right a{
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+    padding: 18px 30px;
+}
+.top__btn-right a{    
+    padding: 18px 48px;
+}
+.about{
+    margin-top: 110px;
+    background-color: #ffffff;
+}
+.about__inner{
+    max-width: 468px;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 125px;
+}
+.about__inner::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #7a7a7a;
+    left: 0;
+    
+}
+.about__title{
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    line-height: 49px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.about__text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 38px;
+}
+.about__btn a{
+    font-size: 16px;
+    font-weight: 500;
+    width: 245px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+    padding: 18px 48px;
+    cursor: pointer;
+}
+.about__btn a:hover{
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+}
+.services{
+    padding: 120px 0px 65px;
+    background-color: #f6f6f6;
+}
+.title{
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    line-height: 69px;
+    text-align: center;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+.title:before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #7a7a7a;
+    left: 47%;    
+}
+.services__items{
+    text-align: center;
+}
+.services__title{
+    font-size: 24px;
+    line-height: 49px;
+    font-weight: 500;
+    padding: 20px 0px 80px;
+    position: relative;
+}
+.services__title:after{
+    content: "";
+    position: absolute;
+}
