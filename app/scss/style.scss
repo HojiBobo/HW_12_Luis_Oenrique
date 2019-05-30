@@ -172,3 +172,38 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
 }
+.services{
+    padding: 120px 0px 65px;
+    background-color: #f6f6f6;
+}
+.title{
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    line-height: 69px;
+    text-align: center;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+.title:before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #7a7a7a;
+    left: 47%;    
+}
+.services__items{
+    text-align: center;
+}
+.services__title{
+    font-size: 24px;
+    line-height: 49px;
+    font-weight: 500;
+    padding: 20px 0px 80px;
+    position: relative;
+}
+.services__title:after{
+    content: "";
+    position: absolute;
+}
