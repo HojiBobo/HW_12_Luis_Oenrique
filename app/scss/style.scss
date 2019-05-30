@@ -82,3 +82,47 @@ body{
     text-decoration: underline;
     text-transform: lowercase;
 }
+.top__image{
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+.top__inner{
+    position: absolute;
+    top: 265px;
+}
+.top__title{
+    font-size: 90px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.top__text{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.top__btn-left,
+.top__btn-right{
+    display: inline-block;
+}
+.top__btn-left{
+    margin-right: 20px;
+}
+.top__btn-left :hover,
+.top__btn-right :hover{
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+}
+.top__btn-left a,
+.top__btn-right a{
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+    padding: 18px 30px;
+}
+.top__btn-right a{    
+    padding: 18px 48px;
+}
