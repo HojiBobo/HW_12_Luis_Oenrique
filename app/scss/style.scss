@@ -352,3 +352,28 @@ body{
 .slick-initialized .slick-slide {
     display: inline-flex;
 }
+.highlights{
+    padding: 70px 0px 70px;
+    background-color: #f6f6f6;
+}
+.highlights__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.highlights__items{
+    text-transform: uppercase;
+   text-align: center;
+}
+.highlights__img{
+    padding: 30px;
+}
+.highlights__title{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px
+}
+.highlights__text{
+    font-size: 22px;
+    font-weight: 400;
+}
