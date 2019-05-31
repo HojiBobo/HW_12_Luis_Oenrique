@@ -20,6 +20,7 @@
     "normalize.css": "8.0.1"
   },
   "dependencies": {
+    "fonts": "0.0.2",
     "slick-carousel": "^1.8.1"
   }
 }
